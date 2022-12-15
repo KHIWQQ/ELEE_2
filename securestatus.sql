@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 04, 2022 at 05:37 PM
+-- Generation Time: Dec 06, 2022 at 03:48 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -41,7 +41,13 @@ CREATE TABLE `securestatus` (
 --
 
 INSERT INTO `securestatus` (`quater`, `fname`, `sname`, `company`, `platoon`, `position`) VALUES
-(0, 'dd', '', 0, 0, '2');
+(1, 'AAA', 'AAA', 1, 1, '1'),
+(1, 'BBB', 'BBB', 1, 1, '2'),
+(1, 'CCC', 'CCC', 1, 1, '3'),
+(1, 'DDD', 'DDD', 2, 1, '4'),
+(1, 'EEE', 'EEE', 2, 1, '5'),
+(1, 'FFF', 'FFF', 3, 1, '6'),
+(1, 'ZZZ', 'ZZZ', 3, 1, '7');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
