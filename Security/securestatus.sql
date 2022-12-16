@@ -2,8 +2,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-CREATE DATABASE security;
-
 CREATE TABLE `securestatus` (
   `quater` int(11) NOT NULL,
   `fname` varchar(33) NOT NULL,
