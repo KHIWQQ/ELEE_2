@@ -2,6 +2,8 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
+CREATE DATABASE security;
+
 CREATE TABLE `securelog` (
   `quater` int(11) NOT NULL,
   `position` varchar(33) NOT NULL,

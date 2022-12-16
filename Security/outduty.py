@@ -171,7 +171,7 @@ def ConnectorMysql():
         host="localhost",
         user="root",
         passwd="12341234",
-        database="testdb",
+        database="security",
         # auth_plugin='mysql_native_password'
     )
     print("db run")
